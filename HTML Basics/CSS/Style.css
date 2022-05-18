@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-body {
+    background: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    min-height: 100vh;
+    background-position: center;
+    ba
+}
+#form-container {
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(27, 27, 50, 0.8);
+}
+
+#page-header {
+    text-align: center;
+    padding: 70px 0 60px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+background: rgb(2, 61, 2)
+}
+
+input[type="text"], input[type="email"], select, textarea {width: 100%;
+margin-top: 8px;
+padding: 12px 12px;
+border-radius: 4px;
+border: 1px solid blue;
+}
+
+input[type="submit"] {
+    width: 100%;
+    margin-top: 16px;
+    padding: 12px 12px;
+border-radius: 4px; 
+background-color: #37af65;
+color: #ffffff;
+cursor: pointer;
+}
+
+.input-area { 
+    margin-bottom: 20px;
+}
+
+.radio-input {margin-top: 10px;}
